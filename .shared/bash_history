@@ -1,0 +1,17 @@
+ls
+ls -la
+cd src/
+ls
+touch HelloWorld.cc 
+cd ../
+ls
+ls cd .shared/
+ls
+cd .shared/
+ls
+ls -la
+touch bash_history 
+cd ../
+ls
+exit
+exit
