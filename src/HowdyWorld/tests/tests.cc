@@ -2,9 +2,9 @@
 #  define CATCH_CONFIG_MAIN
 #endif
 
+#include <catch/catch.hpp>
 #include <string>
 
-#include "catch.hpp"
 #include "utilities.hpp"
 
 TEST_CASE("Howdy()", "[howdy]") {
