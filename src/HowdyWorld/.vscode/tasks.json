@@ -26,10 +26,10 @@
 		},
 		{
 			"type": "shell",
-			"label": "test",
+			"label": "tests",
 			"command": "/usr/bin/make",
 			"args": [
-				"test",
+				"tests",
 			],
 			"options": {
 				"cwd": "${workspaceFolder}"
@@ -40,10 +40,10 @@
 		},
 		{
 			"type": "shell",
-			"label": "debug test",
+			"label": "debug tests",
 			"command": "/bin/cp",
 			"args": [
-				"${workspaceFolder}/bin/test",
+				"${workspaceFolder}/bin/tests",
 				"/home/vagrant/bin/",
 			],
 			"options": {
