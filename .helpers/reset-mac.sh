@@ -3,4 +3,4 @@ docker stop cs128env
 echo "removing cs128env container"
 docker rm cs128env
 echo "running new cs128env container"
-sh .config/setup-mac.sh
+sh .helpers/setup-mac.sh
