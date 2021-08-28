@@ -1,1 +1,1 @@
-export GITKEY=$(echo "$(cut -d'=' -f2 <<< $(grep gitkey /home/vagrant/.shared/env))")
+export GIT_TOKEN=$(echo "$(cut -d'=' -f2 <<< $(grep git-token /home/vagrant/.shared/env))")
