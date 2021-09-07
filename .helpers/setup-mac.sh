@@ -1,4 +1,4 @@
-export PATH_TO_CS128_DIR=$"$(pwd)" # this should be root cs128env
+export PATH_TO_CS128_DIR="$(pwd)" # this should be root cs128env
 echo "Path to cs128env folder: $PATH_TO_CS128_DIR"
 if [[ `uname -m` == 'arm64' ]]; then
   docker pull michaelrnowak/cpp-dev-env:m1-latest
