@@ -5,7 +5,7 @@
   "clang-tidy.blacklist": [],
   "clang-tidy.compilerArgs": [],
   "clang-tidy.compilerArgsBefore": [
-    "-Iincludes"
+    "-Iincludes", "-Wunused-variable"
   ],
   "C_Cpp.clang_format_sortIncludes": false,
   "C_Cpp.formatting": "Disabled",
